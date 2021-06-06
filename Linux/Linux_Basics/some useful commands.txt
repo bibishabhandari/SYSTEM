@@ -1,0 +1,3 @@
+$ pwd #denotes the present working directory
+$ ls  #shows the file or directory under its present working directory
+$ date #view the date and time
