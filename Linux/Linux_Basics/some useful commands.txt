@@ -17,7 +17,7 @@ $ timedatectl list-timezones #shows list of all timezones
 $ TZ= 'Europe/London' date #shows only selected timezones
 $ uname -a #shows kernel version  
  
- ---------------------------------------------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  BINARIES --
  /usr/bin
@@ -49,10 +49,10 @@ $ uname -a #shows kernel version
  $ which
  $ whereis
  $ whatis
--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 EDITORS --
-$ GUI Editor (gedit,emacs)
-$ Text Editors (vi, vim, nano) #vi= Visual Editor; vim = improved version of vi
+Graphical text editors --------- GUI Editor (gedit,emacs,Kate, Xemacs, nedit)
+Text-only text editors --------- Text Editors (vi, vim, nano) #vi= Visual Editor; vim = improved version of vi
 
 MODES OF EDITOR ---
 1. Edit Mode or Insert Mode or Append Mode or Open Mode
@@ -87,9 +87,49 @@ Undo --> u
 CTRL+F --> Next page
 CTRL+B --> Previous page
 
+Ex-Mode -------
+:10 --> Goto specified line
+:w --> Save the file
+:q --> Quit the file
+:wq --> Save & quit OR ZZ
+:q! --> Quit without saving
+:e! --> Reload the file
 
+/is --> search is
+n --> Next 
+N --> Previous 
+/ --> Forward search
+? --> Backward search
 
----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+ COMMAND HELP ------
+ 1. MAN -Manual pages
+ $ man pwd #display the different possible options of pwd
+ 2. info <command>
+ 3. stat
+ $ stat f1.txt #shows the access,modify and change details of file f1.txt
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+ $ sort -n <filename> #sort on the basis of ascending order
+ $ sort -k 2 <filename> #sort on the basis of secondary details 
+ $ head <filename> #shows the top 10 lines
+ $ head -3 <filename> #shows top 3 lines 
+ $ tail <filename> #shows the bottom 10 lines
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
  
 
  
