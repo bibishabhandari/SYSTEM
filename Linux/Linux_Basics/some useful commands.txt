@@ -58,8 +58,36 @@ MODES OF EDITOR ---
 1. Edit Mode or Insert Mode or Append Mode or Open Mode
 2. Command Mode (Default)
 3. Ex-Mode
+
 Command Mode --> Edit Mode (i,I,a,A,o,O)
+i --> Current cursor location
+I --> Beginning of the line
+a --> Append from the current cursor location
+A --> Append after the end of line
+o --> Opens or creates the line next to the current line
+O --> Opens before current line
+
 Edit Mode to Command Mode --> Esc
+Copy a line --> yy or nyy
+Paste the line --> p
+Replace a character --> r
+LastLine --> SHIFT+G
+Change Word --> cw
+Delete Line --> dd or ndd #n=number of line
+Repeat the last insert --> .
+First column od the line --> 0
+Last column of the line --> $
+
+Change case --> ~
+yy and 10p --> Copy single line and paste 10 times
+3yy and 2p --> Copy 3 lines and paste 2 times
+Delete word -->   dw
+Undo --> u
+
+CTRL+F --> Next page
+CTRL+B --> Previous page
+
+
 
 ---------------------------------------------------------------------------------------------------------
  
