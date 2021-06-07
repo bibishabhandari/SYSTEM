@@ -15,4 +15,53 @@ $ cal 7 2020 ##shows calender of 2020 year with month july
 $ cal -m 7 #shows the july month of current year
 $ timedatectl list-timezones #shows list of all timezones
 $ TZ= 'Europe/London' date #shows only selected timezones
+$ uname -a #shows kernel version  
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------
+ 
+ BINARIES --
+ /usr/bin
+ /usr/sbin
+ /bin  #normal binaries
+ /sbin #system binaries, used to support low level thing
+---------------------------------------------------------------- 
+ LIBRARIES -- COLLECTION OF OBJECT FILE
+ /usr/lib
+ /usr/slib
+ /lib
+ /slib
+---------------------------------------------------------------- 
+ /boot
+ /proc #current running process information
+ /tmp #temporary file stored directory which is stored temporarily (i.e. until the system reboot)
+ /dev
+ /etc #location for configuration file
+ /var 
+ 
+ PTS - Pseudo Terminal System
+ /dev/tty1
+ /dev/tty2
+----------------------------------------------------------------------------------------------------- 
+ CHARACTERS:
+ * = 0 or more
+ ? = 1
+------------------------------------------------------------------------------------------------------
+ $ which
+ $ whereis
+ $ whatis
+-------------------------------------------------------------------------------------------------------
+EDITORS --
+$ GUI Editor (gedit,emacs)
+$ Text Editors (vi, vim, nano) #vi= Visual Editor; vim = improved version of vi
+
+MODES OF EDITOR ---
+1. Edit Mode or Insert Mode or Append Mode or Open Mode
+2. Command Mode (Default)
+3. Ex-Mode
+Command Mode --> Edit Mode (i,I,a,A,o,O)
+Edit Mode to Command Mode --> Esc
+
+---------------------------------------------------------------------------------------------------------
+ 
+
  
