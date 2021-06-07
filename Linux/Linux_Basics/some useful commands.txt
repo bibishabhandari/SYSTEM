@@ -1,3 +1,18 @@
+Almost everything in Unix/Linux is a file !
+
 $ pwd #denotes the present working directory
 $ ls  #shows the file or directory under its present working directory
+$ ls -l #shows the file or directory under its present working directory with more information
+$ ls -l f1.txt  #shows the f1.txt file with more info
+$ ls -l -t  #shows the latest file first 
+$ ls -l -t -r or $ ls -ltr #shows latest file in reverse order 
+$ ls -l -s -i or $ ls -l -s --inode #i or inode = information node (inode) which is unique for each file
 $ date #view the date and time
+$ touch file.txt #creates a txt file
+$ cal #shows calender
+$ cal 2020 #shows calender of 2020 year
+$ cal 7 2020 ##shows calender of 2020 year with month july
+$ cal -m 7 #shows the july month of current year
+$ timedatectl list-timezones #shows list of all timezones
+$ TZ= 'Europe/London' date #shows only selected timezones
+ 
