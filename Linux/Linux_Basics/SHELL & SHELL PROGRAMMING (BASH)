@@ -1,1 +1,31 @@
-$ ps 
+----------------------------------------------------------- Shell ------------------------------------------------------------------------------
+
+#Shell is a program acts as a command line interpreter.
+#It verifies the command usage and provides basic programming capabilities.
+#Shell : Tools to execute user commands. It is called 'shell' because they hide the details on the underlying os under the shell surface.
+#Shell can be scripted: provides all the resources to write complex programs (i.e. variable, conditionals, iterations...)
+
+------------------------------------------------------- Shell Scripts ------------------------------------------------------------------------
+
+#Shell script is a text file contining a series of commands.
+#Commands in the shell script executes one by one.
+#Shell reads this file and carries out the commands as though they have been entered directly on the command line.
+#Shell is both powerful command line interface to the system and a scripting language interpreter.
+#Its convention to have extension for the shell script as .sh or .bash and comment in the script file denotes with '#'.
+
+#Various Shells :
+#Bourne Shell (sh) -- Traditional, basic shell found on Unix systems by Steve Bourne
+#C Shell (csh) -- Once popular shell with a C-line syntax
+#TC Shell (tcsh) -- Tab C shell which is compatible implementation with evolved features (command completion, history editing and more ....)
+#Korn Shell (ksh)
+#Bourne Again SHell (bash) -- An improved implementation of sh with lots of added features too.
+
+---------------------------------------------------------- BASH ------------------------------------------------------------------------------
+#Resource file in BASH ----------
+Resource Control or Run Commands or Run Control or Runtime Configuration.
+The 'rc' suffix goes to back to Unix's grandparent, CTSS (Compatible Time-Sharing System). It had a command-script feature called "runcom". Early Unixes used 'rc' 
+for the name of the operating system's boot scripts, as a tribute to CTSS runcom.
+~/.bashrc -- Shell script read each time a bash shell is started.
+This file can be used to define -- the default environment variable (PATH, EDITOR, etc ...); aliases; prompt; greeting message 
+
+
